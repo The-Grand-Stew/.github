@@ -1,6 +1,6 @@
 # Welcome to the Grand Stew!!
 
-[<img src="https://www.pikpng.com/pngl/m/5-58835_download-svg-download-png-stew-emoji-clipart.png">](https://www.pikpng.com/pngl/m/5-58835_download-svg-download-png-stew-emoji-clipart.png)
+[<img src="https://i.pinimg.com/originals/00/66/5c/00665c0525ca80a8a8dfb5777c9c5a04.jpg>](https://i.pinimg.com/originals/00/66/5c/00665c0525ca80a8a8dfb5777c9c5a04.jpg)
 # Stew
 ## Install
 
