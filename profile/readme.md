@@ -49,7 +49,17 @@ brew install stew
 - Preferred Code editor: VSCode
 
 ## Coding standards with Go:
+### Folders
+#### pkg
+- All public code goes inside this package
+- The code/packages written under pkg can be used universally (that means by any other application across the Go world)
+- One package inside pkg cannot import from another package under pkg
+- Eg of packages to put under pkg can be "logging",common functions calling external web apis, database connection scripts
+#### internal
+- All code internal to the application i.e business specific logic goes inside internal
+- The code within this will never be public.
 
+#### cmd
 ## Template Specifications
 
 
