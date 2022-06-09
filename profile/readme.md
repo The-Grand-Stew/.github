@@ -49,7 +49,7 @@ brew install stew
 - Preferred Code editor: VSCode
 
 ## Coding standards with Go:
-### Folders
+### Generic Folder structure
 #### pkg
 - All public code goes inside this package
 - The code/packages written under pkg can be used universally (that means by any other application across the Go world)
@@ -66,6 +66,18 @@ https://gochronicles.com/writing-go-code-like-a-pro/
 
 https://gochronicles.com/dependency-management-in-go/
 
-## Template Specifications
+### Stew Source Code Breakdown
+#### pkg/templates/*
+Go templates for different languages and frameworks.
+#### pkg/commands/*
+Command bash commands that need run when setting up services. Eg `go mod init` needs to run when setting up go services
+#### pkg/configs/
+Handling stew config file **.stew** thats created when a service is setup
+#### cmd/
+Contains all specific code for setting up services in a language and framework
+#### cmd/stew
+Main commands for stew. Where each ".go" file is a command in stew
 
-
+### Writing Go Text Templates
+Refer:
+https://blog.gopheracademy.com/advent-2017/using-go-templates/
