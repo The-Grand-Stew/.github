@@ -60,6 +60,11 @@ brew install stew
 - The code within this will never be public.
 
 #### cmd
+- All your main entrypoint (main.go) go in here
+### Reference Links
+https://gochronicles.com/writing-go-code-like-a-pro/
+https://gochronicles.com/dependency-management-in-go/
+
 ## Template Specifications
 
 
