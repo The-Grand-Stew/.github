@@ -10,6 +10,12 @@
 brew tap The-Grand-Stew/stew
 brew install stew
 ```
+### Local Installation
+```go build -o stew cmd/main.go
+./stew [OPTIONS]
+or
+go run cmd/main.go [OPTIONS]
+```
 
 ## Usage
 - Export your access github token  
