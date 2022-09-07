@@ -46,7 +46,8 @@ go run cmd/main.go [OPTIONS]
 ## Contacts:
 - Vedashree Patil   vedapatil@deloitte.nl
 - Aashrit Shankar   aasshankar@deloitte.nl
-- Arun Kutty        arkutty@deloitte.nl
+- Arun Kutty        kutty.n.arun@gmail.com
+
 
 # Contribution Guide:
 ## Requirements:
